@@ -1,3 +1,7 @@
+# CIS-117 Lab3
+# read file
+# Thet Tun
+#Kezlyn Margareth. I took care of reading the file and she took care for the writing file.
 import csv
 
 
