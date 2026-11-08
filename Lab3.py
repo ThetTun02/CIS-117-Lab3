@@ -35,10 +35,6 @@ def read_countries(filename):
         return None
 
     return countries_by_region
-countries = read_countries("country_full.csv")
-if countries is not None:
-    print (countries["Europe"][:3])
-  write_countries(countries)
 
 def write_countries(countries_by_region):
     """Write each region's countries into a separate CSV file."""
@@ -51,10 +47,8 @@ def write_countries(countries_by_region):
             with open(filename, "w", encoding="utf-8", newline="") as file:
                 writer = csv.writer(file)
 
-                # Write column headings
                 writer.writerow(["name", "region"])
 
-                # Write country names and regions
                 writer.writerows(countries)
 
         except PermissionError:
@@ -62,3 +56,8 @@ def write_countries(countries_by_region):
 
         except OSError as error:
             print(f"Could not write {filename}. {error}")
+
+countries = read_countries("country_full.csv")
+if countries is not None:
+    print (countries["Europe"][:3])
+    write_countries(countries)
