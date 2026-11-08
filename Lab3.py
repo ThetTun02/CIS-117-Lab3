@@ -1,7 +1,15 @@
 # CIS-117 Lab3
-# read file
+# Read and write country information into separate CSV files by region.
 # Thet Tun
-# Kezlyn Margareth. I took care of reading the file and she took care for the writing file.
+# Kezlyn Margareth
+# Group #: [Your group number]
+
+# Collaboration:
+# Thet Tun was responsible for reading the CSV file
+# and grouping countries by region.
+# Kezlyn Margareth was responsible for writing the
+# country information into separate CSV files.
+
 import csv
 
 
