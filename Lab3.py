@@ -2,7 +2,7 @@
 # Read and write country information into separate CSV files by region.
 # Thet Tun
 # Kezlyn Margareth
-# Group #: [Your group number]
+# Group #8
 
 # Collaboration:
 # Thet Tun was responsible for reading the CSV file
